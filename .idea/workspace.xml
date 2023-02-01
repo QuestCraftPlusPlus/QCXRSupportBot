@@ -7,6 +7,7 @@
     <list default="true" id="ac6643eb-f895-468a-818c-e39c7c7052b1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ai.js" beforeDir="false" afterPath="$PROJECT_DIR$/ai.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commands/messagecount.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +86,7 @@
       <workItem from="1674366282874" duration="1190000" />
       <workItem from="1674811306525" duration="157000" />
       <workItem from="1674811473642" duration="901000" />
-      <workItem from="1675220376966" duration="147000" />
+      <workItem from="1675220376966" duration="1860000" />
     </task>
     <servers />
   </component>
