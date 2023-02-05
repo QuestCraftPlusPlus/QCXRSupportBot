@@ -10,9 +10,7 @@ To get the OPENAI_API_KEY :
 - Sign in to this link or create an account: https://platform.openai.com/account/api-keys
 - Create a new key by clicking the "Create new secret key" button, then copy and paste it into the OPENAI_API_KEY section
 
-Second: Do npm install discord.js
-
-Third: Do npm install openai
+Second: Do npm i
 
 Final: (Run index.js) With "node index.js"
 
