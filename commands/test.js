@@ -1,10 +1,16 @@
-const { SlashCommandBuilder } = require('discord.js');
+const { SlashCommandBuilder, EmbedBuilder, Embed } = require('discord.js');
 
 module.exports = {
     data: new SlashCommandBuilder()
-        .setName('aweroiuhterwiturehtreiuhotreiohu')
-        .setDescription('something'),
-    async execute(interaction) {
-        await interaction.reply('test');
+        .setName('test')
+        .setDescription('test'),
+    async execute(interaction,client ) {
+        const embed_test = new EmbedBuilder()
+            .setTitle("Test Title")
+            .setDescription("Test Description")
+            .setColor("Green")
+        await interaction.reply({
+            embeds: [embed_test]
+        });
     },
 };
