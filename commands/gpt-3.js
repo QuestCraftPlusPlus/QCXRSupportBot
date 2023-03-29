@@ -18,7 +18,7 @@ module.exports = {
     .setName('gpt-3')
     .setDescription("Answer any question you have using OpenAI's gpt language model!")
     .addStringOption(option => option.setName('question').setDescription('Your Question').setRequired(true))
-    .setDMPermission(false),
+    .setDMPermission(true),
     async execute (interaction) {
 
         await interaction.deferReply();
@@ -27,8 +27,8 @@ module.exports = {
 
         try {
             const res = await openai.createCompletion({
-                model: 'text-davinci-003',
-                max_tokens: 2048,
+                model: 'gpt-4',
+                max_tokens: 1024,
                 temperature: 0.5,
                 prompt: question
             })
