@@ -20,16 +20,12 @@ module.exports = {
 				.setRequired(false)
 				.addChoices(
 					{ name: "PC", value: "pc" },
-					{ name: "Quest", value: "quest" }
 				)),
 	async execute(interaction) {
 		const categorys = interaction.options.getString("device");
 		switch (categorys) {
 			case "pc":
 				await interaction.reply({ embeds: [embeds.pc_logs] });
-				break;
-			case "quest":
-				await interaction.reply({ embeds: [embeds.quest_logs] });
 				break;
 			default:
 				await interaction.reply({ embeds: [embeds.embed_logs], components: [buttons.logs] });
